@@ -1,7 +1,7 @@
 # Download_MP3
-Script to extract mp3 from youtube channel
+Script for extracting mp3 files from a given youtube channel
 
-Script 'extract_url' extracts all possible url videos from channel. Script 'download_mp3' loads a CSV file witt URL list. This scrip needs bs4 for extract html elements, youtube_dl for download video and eyed3 for tag mp3. ffmpeg external library is mandatory too. MP3 is not converted directly because youtube_dl generates a not taggable file.
+The 'extract_url' script extracts all possible url videos from a given channel. The 'download_mp3' script loads a CSV file witt an URL list. This scrip needs bs4 for extracting html elements, youtube_dl for downloading video and eyed3 for tagging mp3. The ffmpeg external library is mandatory too. mp3 files are not converted directly because youtube_dl generates a non-taggable file.
 
 Refs:
 
